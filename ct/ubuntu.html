@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>E-Learning</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>E</b></span> <span class="w3-hide-small w3-text-light-grey">Learning</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <style>
+    body {background-color:#121212;}
+ </style>
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><font color=white>UBUNTU<font></h3>
+  </div>
+  <h3>How do I get started</h3>   
+We will learn you how to install an opering system (OS) and after that how can you use the terminal and a lot of stuff
+
+<h3>Step 1. Download Ubuntu</h3>
+Ubuntu is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions <a href="https://en.wikipedia.org/wiki/Ubuntu" target="_blank">Read here</a>
+<br>
+<li>We go to www.ubuntu.com and select Download and Download 20.04 (see pic below)
+  <img src="ubuntu/1.jpg">
+  <b>Remember that this version 20.04 We support in the tutorial work for amd64(x64) that means you need a CPU(Central processing unit) capable to execute x64 system operating, some exemple are any cpu after 2010 intel or amd
+  </b>
+</li><br>
+<li>
+  After we download the operating system we need to make a bootable usb stick with rufus (search on google)
+  <img src="ubuntu/2.jpg">
+  Now we need to plug in the computer usb slot the usb stick with at least 4 gb
+  Then rufus will indetify automatic the usb
+  Press the "SELECT" button from Boot selection and then select the ubuntu-20.04-desktop-amd64.iso that we downloaded above
+  Wait till rufus install and restart the pc and press F12 or FN+F12(if you are on laptop)
+  Select usb stick, if your pc can support UEFI select UEFI Stick USB or UEFI XXXXX (XXXX means your usb stick name)
+</li>
+<li><br>
+  After the Ubuntu will boot from the usb, you will see the Ubuntu logo and some checkings and if everything is allright, the os will appear as the image above<br>
+  <img src="ubuntu/3.jpg"><br>
+  At this step you can run the ubuntu on your pc without delete everything or you can install the os, if you want to take a look you can press Try
+
+</li><br>
+
+<h3>Step 2. Install Ubuntu</h3>   
+<li>Choose your own language from the left side</li>
+<li>Press the Install Button</li>
+<li>At keyboard you can choose your own country keyboard, but we will leave as default English(US) - English(US)
+  <img src="ubuntu/4.jpg">
+</li><br>
+<li><img src="ubuntu/5.jpg"><br>
+  At stage Updates and other software, you can check normal or minimal install (minimal install is the same with normal install but some of the applications are not installed and can be installed after that)<br>
+  And the other options leave the "Download updates while installing" this will save time after the install is complete because you will not needed to upgrade it<br>
+  You can install "Third Party Software for graphics and Wifi hardware and other media format" is ideal to check this because you will also save time after install</li><br>
+
+
+<li><img src="ubuntu/6.jpg"><br>
+At this point if you want to erase all the disk press "Install now" and then press Continue<br>
+Or if you want to install on another hard disk press something new (I will follow the something new because I want you to learn something)<br>
+<img src="ubuntu/7.jpg"><br>
+Select hard disk from "Device for boot loader installation", mine is /dev/sda ATA....<br>
+Press the "New Partition Table"<br>
+If you have something installed on the hardisk press the "minus" button the delete them<br>
+Now You will se "Free Space" and the amount of the size of the disk<br>
+At the stage <b>"Create Partition"</b><br>
+<b>Size</b> we select the amount maximum of the hard disk in MB minus 5-10 GB<br>
+At "Mount Point" we select "/" from list (That means all the files are under root documents, that includes all the OS) and press Ok<br>
+Next we select press again on the "Free Disk" and select from "Mount Point" "spawn-area" (The Swap Area is just fake RAM that lives on your hard drive. It is much slower than actual RAM, but is necessary in many cases to keep a computer running normally. A good rule of thumb is to have as much swap space as you do normal RAM.)<br>
+See the pic below for a good exemple
+<img src="ubuntu/8.jpg">
+Now press the button "Install Now"
+</li>
+
+<h3>Step 3. Config account</h3> 
+Select your country press continue <br>
+Put your name and a password<br>
+Wait for the install :)<br>
+
+<h3>Step 4. Congrats</h3> 
+If you follow the steps above you will se this
+<img src="ubuntu/ubuntu.png"> 
+
+We recommand to see ubuntu advanced page 
+</div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Template Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
