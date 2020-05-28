@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>E-Learning</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b><a href="/index.html">E</a></b></span> <span class="w3-hide-small w3-text-light-grey">Learning</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <style>
+    body {background-color:#121212;}
+ </style>
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><font color=white>Vectors<font></h3>
+  </div>
+
+  <h3>1.1 Fundamental Notions</h3><br>
+  The vector notion, introduced by SIMON STEVIN comes from latin language and means "carrier"<br>
+  <b>Definition</b><br>
+  Vector is a right segment oritented, characterized through the following elements:<br>
+  <li>Aplication Point (point A)</li>
+  <li>Direction (right Δ)</li>
+  <li>Sense (indicated by arrow)</li>
+  <li>module (the lenght of segment AB)</li><br>
+  Will wiright it down with $\vec{AB}$ or $\vec{v}$ 
+   <br> <img src="images/v_11.png">
+  <br><br>
+  Clasification: Vectors can be: 
+  <li>connected (fixed point of application)</li>
+  <li>sliding (the right suport is fixed, but the point of application can be moved along this line</li>
+  <li>Liber (the point of application can be move anywhere in space, the right suport will remain paralel with the same line</li>
+ <br><br>
+ Definition: The versor (unitar vector) of a vector $\vec{a}$ it's a vector with sens and direction of vector $\vec{a}$, and the module equal with unity: $\vec{a} = a \bullet \vec{u}$<br>
+ The versor of axe it is a vector with module equal with unity of lenght on axe; the direction the same with axe; sense the same with sense pozitiv of axe; the point of application in origin axe (O).
+ <br><img src="images/v_12.png"><br>
+<br>
+For the axes Ox, Oy and Oz will write down the vector as $\vec{i}$, $\vec{j}$ and $\vec{k}$
+
+  <h4>The analitic expresion of vector</h4><br>
+  Any vector on the axe Ox can be wright as: $\vec{a} = a_x * \vec{i}$<br>
+  where - $\vec{a_x}$ it is the proiection of vector $\vec{a}$ on axe Ox.
+  In a sistem ortogonal of axes Oxyz, an vector $\vec{a}$ can be write as:<br>
+  $\vec{a} = \vec{a_x} + \vec{a_y} + \vec{a_z}$<br>
+  $\vec{a} = a_x* \vec{i} + a_y * \vec{j} + a_k * \vec{k}$<br>
+  with $a = \sqrt{a^2_x + a^2_y + a^2_z}$ <br>
+  <img src="images/v_13.png"><br>
+  Where $\vec{a_x},\vec{a_y} and \vec{a_z}$ are componets of vector $\vec{a}$ on the 3 axes $a_x,a_y,a_z$ witch represend the proiections of vector $\vec{a}$ on Ox,Oy,Oz<br>
+  <br> The proiection of $\vec{a}$ on the axe Ox of versor $\vec{i}$, is the number real $a_x$ defined: <br>
+  $a_x = \vec{a} * \vec{i} = a * cos\alpha$<br>
+  Where $\alpha$ is the angle formed of the vector $\vec{a}$ with axe Ox.<br>
+  If $-\frac{\pi}{2} < \alpha < \frac{\pi}{2}$, the proiection will be pozitive, else if $\frac{\pi}{2} < \alpha < \frac{3\pi}{2}$ will be negative<br>
+  <img src="images/v_14.png">
+
+<h4>Decomposition of vector after 2 directions competing</h4>
+<p>Descomposition a vector $\vec{a}$ after 2 directions competing $(D_1)$ and $(D_2)$, of versors $\vec{u_1}$ and $\vec{u_2}$,
+means to find 2 vectors $\vec{a_1}$ and $\vec{a_2}$, orietened afer $(D_1)$ and $(D_2)$, such that:<br>
+$\vec{a} = \vec{a_1} + \vec{a_2} = a_1 * \vec{u_1} + a_2 * \vec{u_2}$ <br>
+Vectors $\vec{a_1}$ and \vec{a_2} is called componets of vectors $\vec{a}$ after directions of $D_1$ and $D_2$
+</p>
+
+
+
+</div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Template Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
